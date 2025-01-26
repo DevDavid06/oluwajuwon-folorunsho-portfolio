@@ -3,7 +3,7 @@
     margin: 0;
 }
 header{
-    background-image: url(img/tech-abstract-universeinspired-patterns-with-const__16434.jpeg);
+    background-image: url(img/contacts.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 85vh;
@@ -284,7 +284,7 @@ footer {
     height: 100vh;
 }
 .header3{
-    background-image: url(img/contacts.jpeg);
+    background-image: url(img/tech-abstract-universeinspired-patterns-with-const__16434.jpeg);
     height: 100vh;
 }
  @media (max-width:700px){
@@ -391,7 +391,7 @@ footer {
         height: 180vh;
     }
     .header3{
-        background-image: url(img/contacts.jpeg);
+        background-image: url(img/tech-abstract-universeinspired-patterns-with-const__16434.jpeg);
         height: 100vh;
     }
     
@@ -446,7 +446,7 @@ footer {
         height: 160vh;
     }
     .header3{
-        background-image: url(img/contacts.jpeg);
+        background-image: url(img/tech-abstract-universeinspired-patterns-with-const__16434.jpeg);
         height: 100vh;
     }
  }
@@ -537,7 +537,7 @@ footer {
         height: 100vh;
     }
     .header3{
-        background-image: url(img/contacts.jpeg);
+        background-image: url(img/tech-abstract-universeinspired-patterns-with-const__16434.jpeg);
         height: 100vh;
     }
  }
