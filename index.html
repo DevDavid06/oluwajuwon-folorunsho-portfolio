@@ -3,197 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oluwajuwon Folorunsho Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="img/Capture1.PNG">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Oluwajuwon's Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="shortcut icon" href="img/Capture1.PNG" type="image/x-icon">
 </head>
 <body>
+    <!--  header/ body -->
     <header>
-       <nav>
+        <!-- Nav area -->
+        <nav>
+            <!-- Sidebar -->
             <ul class="sidebar">
-                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>                
                 <li><a href="">Home</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#about" class="menu-link">About</a></li>
+                <li><a href="#projects" class="menu-link">projects</a></li>
+                <li><a href="#contact" class="menu-link">Contact me</a></li>
+                <li><a href="#socials" class="menu-link">Socials</a></li>
             </ul>
+
             <ul>
-                <li><a href=""><img class="image" src="img/Capture2.PNG" alt=""></a></li>
+                <li><a href=""><img class="logo" src="img/Capture2.PNG" alt=""></a></li>
                 <li class="hideOnMobile"><a href="">Home</a></li>
-                <li class="hideOnMobile"><a href="project.html">projects</a></li>
-                <li class="hideOnMobile"><a href="about.html">About</a></li>
-                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
-                <li class="menu-btn" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                <li class="hideOnMobile"><a href="#about">About</a></li>
+                <li class="hideOnMobile"><a href="#projects">projects</a></li>
+                <li class="hideOnMobile"><a href="#contact">Contact me</a></li>
+                <li class="hideOnMobile"><a href="#socials">Socials</a></li>
+                <li class="menu-btn" onclick="showSideBar()"><a href="#"><svg class="svg" xmlns="http://www.w3.org/2000/svg" color="white" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
             </ul>
         </nav>
-        <div class="section1">
-            <div>
-                <div class="hi-there">
-                    <span>Hi There</span>
-                    <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                    font-size: 25px;" >Welcome to my portfolio</p>
-                </div>
-                <div class="intro">
-                    <span> My Name is Oluwajuwon Folorunsho. I am an aspiring Frontend developer dedicated to creating responsive and user-friendly websites. My passion lies in crafting visually appealing layouts and ensuring seamless functionality that enhances the user experience.
 
-                    With a budding knowledge of WordPress, I am also capable of customizing and managing websites on this versatile platform, making it easier for businesses and individuals to establish their online presence. I bring enthusiasm, creativity, and a problem-solving mindset to every project I work on. My focus is on delivering websites that not only meet but exceed expectations, ensuring they are functional, visually appealing, and optimized for performance.</span>
+        <!-- Intro area -->
+        <div class="intro-container">
+            <div class="intro-name">
+                <div class="skill">
+                    <p>My Skills</p>
                 </div>
-                    <div class="intro2">
-                        <span>My Name is Oluwajuwon Folorunsho. I am an aspiring Frontend developer dedicated to creating responsive and user-friendly websites. With a budding knowledge of WordPress, I am also capable of customizing and managing websites on this versatile platform, making it easier for businesses and individuals to establish their online presence. I bring enthusiasm, creativity, and a problem-solving mindset to every project I work on.</span>
+                <div class="skills">
+                    <p>Logo Designing</p>
+                    <p>Web developer</p>
+                    <p>Frontend developer</p>
+                </div>
+                <div class="intro-tech">
+                    <div class="intro-tech-xt">
+                        <p>Technologies</p>
                     </div>
+                    <div class="intro-lang">
+                        <p>HTML5</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                        <p>React</p>
+                    </div>
+                </div>
+            </div>
+            <div class="intro-skill">
+                <h1 class="hi-there">Hi there</h1>
+                <span> I am a frontend developer dedicated to creating responsive and user-friendly websites. My passion lies in crafting visually appealing layouts and ensuring seamless functionality that enhances the user experience.
+
+                With a budding knowledge of WordPress, I am also capable of customizing and managing websites on this versatile platform, making it easier for businesses and individuals to establish their online presence.
+                Creating and designing logos for companies to bring out the stepping stone of their brands.
+            </span>
+            </div>
+        </div>
+        <!-- Section 2 -->
+        <div class="section2" id="projects">
+            <div>
+                <h1>My Projects</h1>
+            </div>
+            <div class="section2i">
+                <div class="sections">
+                    <div class="title">
+                        <h2>01.</h2>
+                        <h2>A Calculator</h2>
+                    </div>
+                    <div class="explanation">
+                        created a fully functional calculator using HTML, CSS, and JavaScript. The calculator performs basic arithmetic operations such as addition, subtraction, multiplication, and division. The interface is designed using HTML for structure and CSS for styling, ensuring a clean and user-friendly layout.
+
+                        The calculator's buttons and display are responsive, adapting seamlessly to different screen sizes. JavaScript handles the core functionality, including capturing user input, performing calculations, and dynamically updating the display.
+                    </div>
+                    <div class="link-btn">
+                        <a class="btn-link" href="https://devdavid06.github.io/calculator/">visit</a>
+                    </div>
+                </div>
+                <div class="sections">
+                    <div class="title">
+                        <h2>02.</h2>
+                        <h2>Rock paper Scissors</h2>
+                    </div>
+                    <div class="explanation">
+                        The Rock Paper Scissors game is an interactive, browser-based project built using HTML, CSS, and JavaScript. The game starts by allowing the player to select one of the three choices: Rock, Paper, or Scissors. The computer generates its selection randomly using JavaScript logic. Once both choices are made, the game compares them, evaluates the winner based on the traditional rules (Rock beats Scissors, Scissors beats Paper, Paper beats Rock), and displays the result on the screen.
+                    </div>
+                    <div class="link-btn">
+                        <a class="btn-link" href="https://devdavid06.github.io/gaming/">visit</a>
+                    </div>
+                </div>
+                <div class="sections">
+                    <div class="title">
+                        <h2>03.</h2>
+                        <h2>A Church Website</h2>
+                    </div>
+                    <div class="explanation">
+                        I created a visually appealing and functional landing page using HTML, CSS, and JavaScript. The page includes a responsive hero section that immediately captures the user’s attention with an eye-catching image, a prominent headline, and a clear call-to-action button. It’s designed to provide essential information about the product or service in an organized and engaging manner. The layout is fully responsive, adjusting seamlessly to different screen sizes, ensuring an optimal experience for users on desktops, tablets, and mobile devices.
+                    </div>
+                    <div class="link-btn">
+                        <a class="btn-link" href="https://devdavid06.github.io/C.M.C/">visit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section3" id="about">
+            <div class="about-title">
+                <h1>About Me</h1>
+            </div>
+            <div class="section3i">
+                <div class="imagess">
+                    <img class="image" src="img/version2.png" alt="">
+                </div>
+                <div class="about-explanation">
+                    <span>My name's Oluwajuwon Folorunsho, i am 19 years old, given birth to on the 3rd of june.
+                        <p>As a web developer, i have gained experience in creating dynamic and responsive websites tailored to client needs. My programming carrer started 2023 when i started working at a technology company Nuvigat, since then i've built websites for schools, churches, focusing on user-friendly interface and securing functionality. My work is fueled by problem-solving and continuous learning, ensuring innovative solutions for every problems.</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section4" id="contact">
+            <div class="contact-title">
+                <h1>Contact Me</h1>
+                <h3>Have questions to ask? contact me by sending a message</h3>
+            </div>
+            <div class="section4i">
+                <form class="form" id="contact-form">
+                    
+                   
+                    <label for="name">Full Name:</label>
+                    <input id="name" placeholder="Full Name" type="text" name="from_name" required>
+                    
+                    <label for="email">Email Address:</label>
+                    <input id="email" placeholder="Email Address" type="email" name="email_id" required>
+                    
+                    <label for="message">Message Me</label>
+                    <textarea id="message" placeholder="Message Me" name="message" required></textarea>
+                    
+                    <button class="btn-form" type="submit">Send</button>
+                    <div id="formResponse"></div>
+                </form>
+            </div>
+        </div>
+        <div class="section5" id="socials">
+            <div class="contact-title">
+                <h1>SOCIALS</h1>
+            </div>
+            <div class="section5ii">
+                <div class="section5i">
+                    <div class="icon">
+                        <div>
+                        <i class="fa fa-envelope icons"></i>
+                        </div>
+                        <div class="">
+                            <p>Email :</p>
+                            <p>iamjaybest@gmail.com</p>
+                        </div>
+                        
+                    </div>
+                    <div class="icon">
+                        <div>
+                        <i class="fa fa-phone icons"></i>
+                        </div>
+                        <div class="">
+                            <p>Tel :</p>
+                            <p>+234 8162638041</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="icon">
+                    <div>
+                    <i class="fa-brands fa-linkedin icons"></i>
+                    </div>
+                    <div class="">
+                        <p>LinkedIn :</p>
+                        <p><a class="linkedin" href="https://linkedin.com/in/oluwajuwon-eugene-folorunsho-12b717349">https://linkedin.com/in/oluwajuwon-eugene-folorunsho-12b717349</a></p>
+                    </div>
+                    
+                </div>
             </div>
             
         </div>
-        <div class="profile">
-            <div class=" i-do">
-                <div>
-                    <i class="fa fa-lightbulb bigger-icon icon"></i>
-                </div>
-                <div>
-                    <h2>Listening</h2>
-                </div>
-                <div class="doings">
-                    <p>I believe in understanding your needs, concerns, and aspirations.Through attentive listening, i tailor solutions that truly address your unique requirements, ensuring your satisfaction and success."</p>
-                </div>
-            </div>
-            <div class="i-do">
-                <div>
-                    <i class="fa fa-handshake bigger-icon icon" aria-hidden="true"></i>
-                </div>
-                <div>
-                    <h2>Thinking Along</h2>
-                </div>
-                <div class="doings">
-                    <p>Collaborating with you to bring innovative ideas to life. My work excels in creative solutions, strategic planning, and seamless execution in building and creating your desired website. Let's think, create, and grow together.</p>
-                </div>
-            </div>
-            <div class="i-do">
-                <div>
-                    <i class="fa fa-clock bigger-icon icon" aria-hidden="true"></i>
-                </div>
-                <div>
-                    <h2>Fast And Efficient</h2>
-                </div>
-                <div class="doings">
-                    <p> I deliver speed and efficiency in everything i do. From quick service to rapid delivery, my commitment to excellence ensures your satisfaction. Trust my work to keep you moving forward with unparalleled speed and reliability.</p>
-                </div>
-            </div>
-        </div>
+        <footer>
+            <p>&copy; 2025 Oluwajuwon Folorunsho. All rights reserved.</p>
+          </footer>
     </header>
-    <div class="section2ii">
-        <div class="section2i">
-            <div style="color: black; text-align: center; font-weight: 600; font-size: 40px;" class="hi-there">
-                <span>MY PROJECTS</span>   
-            </div>
-            <section class="section2" style="gap: 30px;">
-                <div>
-                    <img class="cons-img" src="img/game.jpeg" alt="">
-                </div>
-                <div>
-                    <div class="game">
-                        <p class="game01">01.</p>
-                        <p class="game02">Rock, Paper, Scissors Game
-                        </p>
-                        <p class="game03">The Rock Paper Scissors game is an interactive, browser-based project built using HTML, CSS, and JavaScript. The game starts by allowing the player to select one of the three choices: Rock, Paper, or Scissors. The computer generates its selection randomly using JavaScript logic. Once both choices are made, the game compares them, evaluates the winner based on the traditional rules (Rock beats Scissors, Scissors beats Paper, Paper beats Rock), and displays the result on the screen.</p>
-                        <div>
-                            <div class="game04">
-                                <a class="game04i" href="https://devdavid06.github.io/gaming/">Visit</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-    <div class="section3i">
-            <section class="section3">
-                <div>
-                    <img class="cons-img2" src="img/candid-image-photography-with-natural__91659.jpeg" alt="">
-                </div>
-                <div>
-                    <div style="gap: 20px;" class="game">
-                        <p class="game01">02.</p>
-                        <p class="game02">Calculator
-                        </p>
-                        <p class="game03">I created a fully functional calculator using HTML, CSS, and JavaScript. The calculator performs basic arithmetic operations such as addition, subtraction, multiplication, and division. The interface is designed using HTML for structure and CSS for styling, ensuring a clean and user-friendly layout.
-
-                        The calculator's buttons and display are responsive, adapting seamlessly to different screen sizes. JavaScript handles the core functionality, including capturing user input, performing calculations, and dynamically updating the display. It uses event listeners to detect button clicks and applies logic to process the inputs in real-time.</p>
-                        <div>
-                            <div class="game04">
-                                <a class="game04i" href="https://devdavid06.github.io/calculator/">Visit</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-    </div>
-    <div class="section3i">
-        <section class="section2" style="gap: 30px;">
-            <div>
-                <img class="cons-img" src="img/gamed.jpeg" alt="">
-            </div>
-            <div>
-                <div style="gap: 3px;" class="game">
-                    <p class="game01">03.</p>
-                    <p class="game02">A Website
-                    </p>
-                    <p class="game03">I created a visually appealing and functional landing page using HTML, CSS, and JavaScript. The page includes a responsive hero section that immediately captures the user’s attention with an eye-catching image, a prominent headline, and a clear call-to-action button. It’s designed to provide essential information about the product or service in an organized and engaging manner.
-                    
-                    The layout is fully responsive, adjusting seamlessly to different screen sizes, ensuring an optimal experience for users on desktops, tablets, and mobile devices. CSS is used for styling and layout, creating a clean, modern design with consistent spacing, fonts, and colors. JavaScript is incorporated to add interactive elements, such as smooth scrolling, button animations, and form validation for contact or subscription forms.</p>
-                    <div>
-                        <div class="game04">
-                            <a class="game04i" href="https://devdavid06.github.io/C.M.C/">Visit</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <div class="add-img">
-        <p  class="organized">Bring Your Organization online</p>
-        <img class="cons-img3" src="img/ConsoleDeliveryFR.png" alt="">
-    </div>
-    <div class="section4i">
-        <div style="color: black; text-align: center; font-size: 40px;" class="hi-there">
-            <span>More About Me</span>
-        </div>
-        <div class="section4">
-            <div class="section4ii">
-                <div>
-                    <img class="imagess" src="img/version2.png" alt="">
-                </div>
-                <div style="display: flex; flex-direction: column; gap: 20px;" class="game03">
-                    <p style="color: black;" class="game02">Oluwajuwon Folorunsho</p>
-                    <p style="line-height: 30px; font-size: 20px;">I have a solid programming background with skills in HTML, CSS, JavaScript, and WordPress. I started my coding journey through a technology school Nuvigat and also learnt online at freeCodeCamp and quickly fell in love with creating functional and visually appealing websites. I've also worked at Nuvigat after learning , where I refined my skills and contributed to impactful projects. My passion for continuous learning drives me to explore new technologies and deliver user-focused solutions.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <form class="form" id="contact-form">
-        <h1 style="text-align: center;">Contact</h1><br>
-        <p>Email - iamjaybest@gmail.com</p>
-        <p>Num - 08162638041</p>
-        <h3>Have questions to ask? contact me by sending a message</h3>
-        <label for="name">Full Name:</label>
-        <input id="name" placeholder="Full Name" type="text" name="from_name" required>
-        
-        <label for="email">Email Address:</label>
-        <input id="email" placeholder="Email Address" type="email" name="email_id" required>
-        
-        <label for="message">Your Message or Requests:</label>
-        <textarea id="message" placeholder="Your Message or Requests" name="message" required></textarea>
-        
-        <button type="submit">Send</button>
-        <div id="formResponse"></div>
-    </form>
-    <footer>
-        <p>&copy; 2025 Oluwajuwon Folorunsho. All rights reserved.</p>
-      </footer>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script src="script.js"></script>
-   
-
+    <script src="script2.js"></script>
 </body>
 </html>
