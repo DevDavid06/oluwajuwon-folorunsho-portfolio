@@ -7,7 +7,7 @@ html{
     padding: 0;
 }
 body{
-    font-family: Arial, sans-serif;
+    font-family:  Arial, sans-serif;
     background-image: url(img/contacts.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +46,6 @@ nav a{
 }
 nav a:hover{
     transform: scale(1.4);
-    border-bottom: 2px solid white;
    
 }
 nav li:first-child{
@@ -89,6 +88,9 @@ nav li:first-child{
         margin: 50px;
         padding: 70px;
         gap: 50px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0px 4px 6px white;
+        border-radius: 20px;
     }
     .intro-name{
         display: flex;
@@ -139,7 +141,6 @@ nav li:first-child{
         gap: 20px;
        padding-left: 20px;
        padding-top: 10px;
-       font-weight: bold;
     }
     .section2{
         color: white;
@@ -163,6 +164,7 @@ nav li:first-child{
         box-shadow: 0 4px 10px white;
         padding: 20px;
         border-radius: 20px;
+        backdrop-filter: blur(10px);
     }
     .title{
         line-height: 40px;
@@ -212,13 +214,14 @@ nav li:first-child{
         background-color: transparent;
         box-shadow: 0 4px 10px white;
         border-radius: 10px;
+        backdrop-filter: blur(5px);
+
         padding: 70px;
     }
     .image{
         width: 300px;
         border: 5px solid white;
         border-radius: 50%;
-        backdrop-filter: blur(5px);
         background-color: transparent;
     }
     .about-explanation{
@@ -359,6 +362,8 @@ nav li:first-child{
             flex-direction: column;
             margin: 0;
             padding: 50px 10px;
+            backdrop-filter: blur(0px);
+            box-shadow: none;
         }
         .intro-skill{
             margin: 10px;
@@ -418,6 +423,8 @@ nav li:first-child{
             flex-direction: column;
             margin: 0;
             padding: 50px 10px;
+            backdrop-filter: blur(0px);
+            box-shadow: none;
         }
         .intro-skill{
             margin: 10px;
@@ -477,6 +484,8 @@ nav li:first-child{
             flex-direction: column;
             margin: 0;
             padding: 50px 10px;
+            backdrop-filter: blur(0px);
+            box-shadow: none;
         }
         .intro-skill{
             margin: 10px;
