@@ -499,6 +499,8 @@ nav li:first-child{
         }
         .section2{
             margin: 50px;
+            display: flex;
+            gap: 50px;
         }
         .section2i{
             flex-direction: column;
