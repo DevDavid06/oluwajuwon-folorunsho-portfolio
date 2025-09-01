@@ -6,217 +6,214 @@
     <title>Oluwajuwon's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="shortcut icon" href="img/Capture1.PNG" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <!--  header/ body -->
-    <header>
-        <!-- Nav area -->
-        <nav>
-            <!-- Sidebar -->
-            <ul class="sidebar">
-                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>                
-                <li><a href="">Home</a></li>
-                <li><a href="#about" class="menu-link">About</a></li>
-                <li><a href="#projects" class="menu-link">projects</a></li>
-                <li><a href="#contact" class="menu-link">Contact me</a></li>
-                <li><a href="#socials" class="menu-link">Socials</a></li>
-            </ul>
+  <!-- ===========================
+             Navigation
+             =========================== -->
+    <nav>
+        <div class="menu">
+            <a href="#home"><i class="fa-solid fa-home"></i><span class="dropdown">Home</span></a>
+            <a href="#about"><i class="fa-solid fa-id-card"></i><span class="dropdown">About</span></a>
+            <a href="#projects"><i class="fa-solid fa-briefcase"></i><span class="dropdown">Projects</span></a>
+            <a href="#contact"><i class="fa-solid fa-phone"></i><span class="dropdown">Contact</span></a>
+        </div>
+    </nav>
 
-            <ul>
-                <li><a href=""><img class="logo" src="img/Capture2.PNG" alt=""></a></li>
-                <li class="hideOnMobile"><a href="">Home</a></li>
-                <li class="hideOnMobile"><a href="#about">About</a></li>
-                <li class="hideOnMobile"><a href="#projects">projects</a></li>
-                <li class="hideOnMobile"><a href="#contact">Contact me</a></li>
-                <li class="hideOnMobile"><a href="#socials">Socials</a></li>
-                <li class="menu-btn" onclick="showSideBar()"><a href="#"><svg class="svg" xmlns="http://www.w3.org/2000/svg" color="white" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-            </ul>
-            </ul>
-        </nav>
+    <!-- ===========================
+             Hero Section
+             =========================== -->
+    <div id="home" class="hero">
+        <div>
+            <h1>Welcome to DevDavid's Tech Space</h1>
+            <p s><span id="head-type"></span></p>
+            <div class="my-links">
+                <a href="#projects" class="cta">Explore My Work</a>
+                <a href="Oluwajuwon-cv.pdf" target="_blank" class="cta">My Resume</a>
+            </div>
+        </div>
+    </div>
 
-        <!-- Intro area -->
-        <div class="intro-container">
-            <div class="intro-name">
+    <!-- ===========================
+             Techs Section
+             =========================== -->
+    <div class="techs">
+        <p>HTML5</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+        <p>Adobe</p>
+        <p>Github</p>
+    </div>
+
+    <!-- ===========================
+             About Section
+             =========================== -->
+    <div id="about" class="intt">
+        <div class="intro">
+            <img src="img/port-img.jpg" alt="">
+            <div class="content slide-up-section">
+                <div>
+                    <h2 style="color: #ffd700;">About Me</h2>
+                </div>
+                <div class="name">
+                    <span>Hi there, I'm <span>Oluwajuwon</span></span>
+                </div>
                 <div class="skill">
-                    <p>My Skills</p>
+                    <span>I'm <span style="color: #ffd700;" id="typing"></span></span>
                 </div>
-                <div class="skills">
-                    <p>Logo Designing</p>
-                    <p>Web developer</p>
-                    <p>Frontend developer</p>
-                </div>
-                <div class="intro-tech">
-                    <div class="intro-tech-xt">
-                        <p>Technologies</p>
-                    </div>
-                    <div class="intro-lang">
-                        <p>HTML5</p>
-                        <p>CSS</p>
-                        <p>JavaScript</p>
-                        <p>React</p>
-                    </div>
-                </div>
-            </div>
-            <div class="intro-skill">
-                <h1 class="hi-there">Hi there <i class="fa fa-hand"></i></h1>
-                <span> I am a frontend developer dedicated to creating responsive and user-friendly websites. My passion lies in crafting visually appealing layouts and ensuring seamless functionality that enhances the user experience.
-
-                With a budding knowledge of WordPress, I am also capable of customizing and managing websites on this versatile platform, making it easier for businesses and individuals to establish their online presence.
-                Creating and designing logos for companies to bring out the stepping stone of their brands.
-            </span>
-            </div>
-        </div>
-        <!-- Section 2 -->
-        <div class="section2" id="projects">
-            <div>
-                <h1>My Projects</h1>
-            </div>
-            <div class="section2i">
-                <div class="sections">
-                    <div class="title">
-                        <h2>01. <i class="fa fa-calculator"></i></h2>
-                        <h2>A Calculator</h2>
-                    </div>
-                    <div class="explanation">
-                        created a fully functional calculator using HTML, CSS, and JavaScript. The calculator performs basic arithmetic operations such as addition, subtraction, multiplication, and division. The interface is designed using HTML for structure and CSS for styling, ensuring a clean and user-friendly layout.
-
-                        The calculator's buttons and display are responsive, adapting seamlessly to different screen sizes. JavaScript handles the core functionality, including capturing user input, performing calculations, and dynamically updating the display.
-                    </div>
-                    <div class="link-btn">
-                        <a class="btn-link" href="https://devdavid06.github.io/calculator/">visit</a>
-                    </div>
-                </div>
-                <div class="sections">
-                    <div class="title">
-                        <h2>02. <i class="fa fa-gamepad"></i></h2>
-                        <h2>Rock paper Scissors</h2>
-                    </div>
-                    <div class="explanation">
-                        The Rock Paper Scissors game is an interactive, browser-based project built using HTML, CSS, and JavaScript. The game starts by allowing the player to select one of the three choices: Rock, Paper, or Scissors. The computer generates its selection randomly using JavaScript logic. Once both choices are made, the game compares them, evaluates the winner based on the traditional rules (Rock beats Scissors, Scissors beats Paper, Paper beats Rock), and displays the result on the screen.
-                    </div>
-                    <div class="link-btn">
-                        <a class="btn-link" href="https://devdavid06.github.io/Rock-paper-Scissors/">visit</a>
-                    </div>
-                </div>
-                <div class="sections">
-                    <div class="title">
-                        <h2>03. <i class="fa fa-globe"></i></h2>
-                        <h2>A Church Website</h2>
-                    </div>
-                    <div class="explanation">
-                        I created a visually appealing and functional landing page using HTML, CSS, and JavaScript. The page includes a responsive hero section that immediately captures the user’s attention with an eye-catching image, a prominent headline, and a clear call-to-action button. It’s designed to provide essential information about the product or service in an organized and engaging manner. The layout is fully responsive, adjusting seamlessly to different screen sizes, ensuring an optimal experience for users on desktops, tablets, and mobile devices.
-                    </div>
-                    <div class="link-btn">
-                        <a class="btn-link" href="https://devdavid06.github.io/C.M.C/">visit</a>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="section2i">
-                <div class="sections">
-                    <div class="title">
-                        <h2>04. <i class="fa fa-stopwatch"></i></h2>
-                        <h2>A stopwatch</h2>
-                    </div>
-                    <div class="explanation">
-                        My stopwatch project is a dynamic and interactive application built with HTML, CSS, and JavaScript, showcasing my skills in front-end development. The stopwatch includes key functionalities such as starting, pausing, resetting, and resuming the timer. It features a visually appealing interface with a modern design, responsive layout, and smooth animations for a polished user experience.
-
-                        The timer updates in real time, accurately measuring seconds and minutes, and leverages JavaScript's Date and interval functions for precision. The project demonstrates proficiency in DOM manipulation, event handling, and CSS styling, including hover effects and button transitions.
-                    </div>
-                    <div class="link-btn">
-                        <a class="btn-link" href="https://devdavid06.github.io/Stopwatch/">visit</a>
-                    </div>
-                </div>
-                
-                
-            </div>
-        </div>
-        <div class="section3" id="about">
-            <div class="about-title">
-                <h1>About Me</h1>
-            </div>
-            <div class="section3i">
-                <div class="imagess">
-                    <img class="image" src="img/version2.png" alt="">
-                </div>
-                <div class="about-explanation">
-                    <span>My name's Oluwajuwon Folorunsho, i am 19 years old, given birth to on the 3rd of june.
-                        <p>As a web developer, i have gained experience in creating dynamic and responsive websites tailored to client needs. My programming carrer started 2023 when i started working at a technology company Nuvigat, since then i've built websites for schools, churches, focusing on user-friendly interface and securing functionality. My work is fueled by problem-solving and continuous learning, ensuring innovative solutions for every problems.</p>
+                <div class="int-text">
+                    <span>
+                        I am a frontend developer dedicated to creating responsive and user-friendly websites. My passion lies in crafting visually appealing layouts and ensuring seamless functionality that enhances the user experience.
+                        With a budding knowledge of WordPress, I am also capable of customizing and managing websites on this versatile platform, making it easier for businesses and individuals to establish their online presence.
+                        Creating and designing logos for companies to bring out the stepping stone of their brands.
                     </span>
                 </div>
+                <div class="icons">
+                    <a class="icon" href="https://linkedin.com/in/oluwajuwon-eugene-folorunsho-12b717349"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="icon" href="https://github.com/DevDavid06"><i class="fa-brands fa-github"></i></a>
+                    <a class="icon" href="https://www.instagram.com/david_folo006/"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="icon" href="https://x.com/DavidFolo2006"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a class="hire" href="#reachout">Got A Project?</a>
             </div>
         </div>
-
-        <div class="section4" id="contact">
-            <div class="contact-title">
-                <h1>Contact Me</h1>
-                <h3>Have questions to ask? contact me by sending a message</h3>
+    </div>
+    <!-- ===========================
+         Experience / Work Done / Satisfied Customers Section
+         =========================== -->
+    <section class="experience-section">
+        <div class="experience-container">
+            <div class="exp-card">
+                <i class="fa-solid fa-briefcase exp-icon"></i>
+                <h3>Experience</h3>
+                <p>3+ Years</p>
+                <span>Web & Graphic Design</span>
             </div>
-            <div class="section4i">
-                <form class="form" id="contact-form">
-                    
-                   
-                    <label for="name">Full Name:</label>
-                    <input id="name" placeholder="Full Name" type="text" name="from_name" required>
-                    
-                    <label for="email">Email Address:</label>
-                    <input id="email" placeholder="Email Address" type="email" name="email_id" required>
-                    
-                    <label for="message">Message Me</label>
-                    <textarea id="message" placeholder="Message Me" name="message" required></textarea>
-                    
-                    <button class="btn-form" type="submit">Send</button>
-                    <div id="formResponse"></div>
+            <div class="exp-card">
+                <i class="fa-solid fa-code exp-icon"></i>
+                <h3>Projects Completed</h3>
+                <p>20+</p>
+                <span>Websites & Apps</span>
+            </div>
+            <div class="exp-card">
+                <i class="fa-solid fa-users exp-icon"></i>
+                <h3>Satisfied Clients</h3>
+                <p>15+</p>
+                <span>Happy Customers</span>
+            </div>
+        </div>
+    </section>
+    
+    </style>
+    <!-- ===========================
+             Projects / Slideshow
+             =========================== -->
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="slideshow-container">
+            <div class="slideshow-wrapper">
+                <!-- Slide 1 -->
+                <div class="proj-card">
+                    <img src="img/church.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>This church website features a modern, responsive design with engaging UI/UX, service schedules, event highlights, and an easy-to-navigate layout for both congregation members and visitors. It also includes a gallery, contact form, and information about ministries.</p>
+                    <a href="https://devdavid06.github.io/C.M.C/" class="proj-btn">View Project</a>
+                </div>
+                <!-- Slide 2 -->
+                <div class="proj-card">
+                    <img src="img/calculator.png" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>This calculator is a simple, interactive web app built with HTML, CSS, and JavaScript. It supports basic arithmetic operations, a clean responsive interface, and real-time calculations, making it easy for users to perform quick math on any device.</p>
+                    <a href="https://devdavid06.github.io/calculator/" class="proj-btn">View Project</a>
+                </div>
+                <!-- Slide 3 -->
+                <div class="proj-card">
+                    <img src="img/gigak.png" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>
+                        This tech website showcases modern web technologies and design trends. It features a responsive layout, interactive UI elements, and highlights my skills in HTML, CSS, and JavaScript. The site demonstrates best practices in frontend development and user experience.
+                    </p>
+                    <a href="https://devdavid06.github.io/project-gigak/" class="proj-btn">View Project</a>
+                </div>
+                <!-- Slide 4 -->
+                <div class="proj-card">
+                    <img src="img/tutor.png" alt="Project 4">
+                    <h3>Project 4</h3>
+                    <p>
+                        This learning website is designed to provide interactive educational resources and tutorials. Built with HTML, CSS, and JavaScript, it features a responsive layout, engaging lessons, and user-friendly navigation to help learners easily access and absorb new knowledge.
+                    </p>
+                    <a href="https://devdavid06.github.io/Tutor/" class="proj-btn">View Project</a>
+                </div>
+                <!-- Slide 5 -->
+                <div class="proj-card">
+                    <img src="img/shade.png" alt="Project 5">
+                    <h3>Project 5</h3>
+                    <p>
+                        This web design website showcases my creative approach to building visually appealing and user-friendly interfaces. It features modern layouts, responsive design, and interactive elements, highlighting my skills in HTML, CSS, and JavaScript for professional web projects.
+                    </p>
+                    <a href="https://devdavid06.github.io/shadepro/" class="proj-btn">View Project</a>
+                </div>
+                <!-- Slide 6 -->
+                <div class="proj-card">
+                    <img src="img/stopwatch.png" alt="Project 6">
+                    <h3>Project 6</h3>
+                    <p>
+                        This stopwatch web app is built with HTML, CSS, and JavaScript. It features start, stop, and reset functionality, a clean and responsive interface, and accurate time tracking, making it ideal for timing activities or productivity sessions on any device.
+                    </p>
+                    <a href="https://devdavid06.github.io/Stopwatch/" class="proj-btn">View Project</a>
+                </div>
+            </div>
+            <!-- Arrows -->
+            <button class="arrow left" aria-label="Previous">&#10094;</button>
+            <button class="arrow right" aria-label="Next">&#10095;</button>
+        </div>
+    </section>
+    <section id="lets-work" style="width:100%;background:linear-gradient(90deg,#222,#444);padding:40px 0;text-align:center;">
+        <div id="reachout" style="max-width:600px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:20px;">
+            <h2 style="color:#ffd700;font-size:2.2em;">Let's Work Together!</h2>
+            <p style="color:#fff;font-size:1.1em;">Ready to start your next project? Reach out and let's build something amazing.<br>
+                <strong>Call/WhatsApp:</strong> <a href="tel:+2348162638041" style="color:#ffd700;text-decoration:none;">+234 816 263 8041</a>
+            </p>
+            <button id="work-together-btn" style="padding:14px 32px;background:#fff;color:#222;font-size:1.1em;font-weight:bold;border:none;border-radius:8px;cursor:pointer;box-shadow:0 2px 12px #000;transition:background .3s;">Request Project</button>
+            <div id="work-together-message" style="margin-top:10px;color:#fff;display:none;"></div>
+        </div>
+       
+     
+    </section>
+    <!-- ===========================
+             Contact Section
+             =========================== -->
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2 style="color: #ffd700;">Contact Me</h2>
+                <form id="emailForm">
+                    <div class="input-group">
+                        <input type="text" name="from_name" placeholder="Your Name" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="email_id" placeholder="Your Email" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="contact-btn">Send Message</button>
+                    <div id="form-message"></div>
                 </form>
             </div>
-        </div>
-        <div class="section5" id="socials">
-            <div class="contact-title">
-                <h1>SOCIALS</h1>
+            <div class="contact-image">
+                <img src="img/IMG_20250827_173612~2.jpg" alt="Contact illustration">
             </div>
-            <div class="section5ii">
-                <div class="section5i">
-                    <div class="icon">
-                        <div>
-                        <i class="fa fa-envelope icons"></i>
-                        </div>
-                        <div class="">
-                            <p>Email :</p>
-                            <p><a class="linkedin" href="iamjaybest@gmail.com" style="text-decoration: none;">iamjaybest@gmail.com</a></p>
-                        </div>
-                        
-                    </div>
-                    <div class="icon">
-                        <div>
-                        <i class="fa fa-phone icons"></i>
-                        </div>
-                        <div class="">
-                            <p>Tel :</p>
-                            <p>+234 8162638041</p>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-                <div class="icon">
-                    <div>
-                    <i class="fa-brands fa-linkedin icons"></i>
-                    </div>
-                    <div class="">
-                        <p>LinkedIn :</p>
-                        <p><a class="linkedin" href="https://linkedin.com/in/oluwajuwon-eugene-folorunsho-12b717349">https://linkedin.com/in/oluwajuwon-eugene-folorunsho-12b717349</a></p>
-                    </div>
-                    
-                </div>
-            </div>
-            
         </div>
-        <footer>
-            <p>&copy; 2025 Oluwajuwon Folorunsho. All rights reserved.</p>
-          </footer>
-    </header>
+    </section>
+
+    <footer>
+        <p>© 2025 Oluwajuwon Folorunsho. All rights reserved.</p>
+    </footer>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
+
