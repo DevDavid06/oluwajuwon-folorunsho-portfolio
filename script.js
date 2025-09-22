@@ -1,4 +1,4 @@
- document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
             // About typing effect
             const texts = [
                 "a Web Designer.",
@@ -149,6 +149,38 @@
                     }
                 });
             })();
+            
+
+
+            window.addEventListener("scroll", () => {
+                document.querySelectorAll(".progress").forEach(bar => {
+                const rect = bar.getBoundingClientRect();
+                if (rect.top < window.innerHeight && bar.style.width === "") {
+                    bar.style.width = bar.getAttribute("data-progress") + "%";
+                }
+                });
+            });
+
+            // Testimonials Auto Slider
+            let currentTestimonial = 0;
+            const testimonials = document.querySelectorAll(".testimonial-slide");
+
+            function showTestimonial(index) {
+            testimonials.forEach((slide, i) => {
+                slide.classList.remove("active");
+                if (i === index) {
+                slide.classList.add("active");
+                }
+            });
+            }
+
+            function nextTestimonial() {
+            currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+            showTestimonial(currentTestimonial);
+}
+
+setInterval(nextTestimonial, 4000); // Change every 4 seconds
+
         // ===========================
         // EmailJS Contact Form
         // ===========================
