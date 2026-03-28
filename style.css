@@ -15,7 +15,6 @@
             font-weight: 400;
             }
 
-            /* Code snippets or developer vibe text */
             code, pre {
             font-family: 'Fira Code', monospace;
             font-weight: 500;
@@ -202,7 +201,6 @@
              About Section
              =========================== */
         .intt {
-            background: linear-gradient(to bottom right, #000, grey);
             height: 100dvh;
             display: flex;
             justify-content: center;
