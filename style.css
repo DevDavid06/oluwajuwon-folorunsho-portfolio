@@ -169,25 +169,35 @@
             box-shadow: 0 0 20px rgba(255,255,255,.6);
         }
       
-        /* ===========================
-             Techs Section
-             =========================== */
-        .techs {
-            display: flex;
-            background-color: rgba(128,128,128,.397);
-            justify-content: space-around;
-            padding: 17px;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-        .techs p {
-            font-size: 20px;
-            cursor: pointer;
-            box-shadow: 0 4px 6px #fff;
-            padding: 5px;
-            transition: all .3s ease;
-        }
-        .techs p:hover { transform: scale(1.1) }
+	.techs {
+    display: flex;
+    justify-content: space-around;
+    padding: 14px;
+    gap: 12px;
+    flex-wrap: wrap;
+    background: rgba(0,0,0,0.05);
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 1000px;
+}
+
+.techs p {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 10px;
+    transition: all .22s ease;
+    transform: scale(1.05);
+    background: rgba(0,0,0,0.1);
+    color: black;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+.techs p:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    color: white;
+    background: black;
+}
 
         /* ===========================
              About Section
