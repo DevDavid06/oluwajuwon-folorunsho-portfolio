@@ -160,6 +160,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
                 });
             });
+             window.addEventListener("scroll", () => {
+      document.querySelectorAll(".progress").forEach(bar => {
+        const rect = bar.getBoundingClientRect();
+        if (rect.top < window.innerHeight && bar.style.width === "") {
+          bar.style.width = bar.getAttribute("data-progress") + "%";
+        }
+      });
+    });
 
             // Testimonials Auto Slider
             let currentTestimonial = 0;
