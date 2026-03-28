@@ -705,7 +705,7 @@
 	.progress {
 		height: 100%;
 		width: 0;
-		background: linear-gradient(90deg, var(--electric-blue), var(--accent-blue));
+		background: white;
 		transition: width 1.8s ease;
 		box-shadow: 0 0 15px rgba(0,212,255,0.6);
 	}
