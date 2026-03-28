@@ -642,7 +642,7 @@
 		background: linear-gradient(180deg,#0d0d0d,#111);
 		padding: 18px;
 		border-radius: 12px;
-		border: 1px solid white;
+		border: 1px solid rgba(0,212,255,0.1);
 		box-shadow: 0 8px 28px rgba(0,0,0,0.6);
 	}
 
@@ -658,17 +658,16 @@
 		background: #0b0b0b;
 		border-radius: 8px;
 		overflow: hidden;
-		border: 1px solid white;
+		border: 1px solid rgba(0,212,255,0.1);
 	}
 
 	.progress {
 		height: 100%;
 		width: 0;
-		background-color: white;
+		background-color:white;
 		transition: width 1.8s ease;
-		box-shadow: 0 0 15px white;
+		box-shadow: 0 0 15px rgba(0,212,255,0.6);
 	}
-
 	@media (max-width:900px) {
 		.skills-grid {
 			grid-template-columns: 1fr;
