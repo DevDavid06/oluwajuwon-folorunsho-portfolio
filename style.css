@@ -202,7 +202,7 @@
              =========================== */
         .intt {
             height: 100dvh;
-			box-shadow:0px 4px 6px white;
+			box-shadow: 8px 0 40px white;
             display: flex;
             justify-content: center;
             align-items: center;
